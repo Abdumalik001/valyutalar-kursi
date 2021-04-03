@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:fontFamily="cursive"
+        >
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/dasttur_kodi"
+            android:icon="@drawable/ic_github"
+            android:title="Dastur kodi" />
+        <item
+            android:id="@+id/instagram"
+            android:icon="@drawable/ic_instagram"
+            android:title="Biz Instagramda" />
+        <item
+            android:id="@+id/telegram"
+            android:icon="@drawable/ic_telegram"
+            android:title="Biz Telegramda" />
+
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="Biz Facebookda" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_info"
+            android:title="Dastur haqida malumot" />
+
+    </group>
+</menu>

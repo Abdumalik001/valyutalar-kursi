@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/button_back">
+    <androidx.appcompat.widget.AppCompatImageView
+android:src="@drawable/no_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarmoqqa ulanish imkoni yo`q"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button_back"
+        android:id="@+id/repeat_connection"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:text="TAKRORLASH" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/exit"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_back"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:text="chiqish" />
+
+
+
+</LinearLayout>

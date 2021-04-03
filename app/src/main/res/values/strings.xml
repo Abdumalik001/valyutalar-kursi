@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Valyutalar kursi</string>
+    <string name="currency">Currency</string>
+    <string name="abdumalik_safoyev">\@ABDUMALIK SAFOYEV</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="o_zbek_so_mi">O\'zbek so\'mi</string>
+</resources>
